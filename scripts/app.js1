@@ -1,0 +1,92 @@
+// ...task 1..
+
+// var zakat_Percentage = 0.025;
+
+// var userInput = prompt("Enter your total wealth for Zakat calculation: ");
+
+// // userInput = parseInt(userInput);
+// console.log(typeof Number(userInput));
+
+// var result = zakat_Percentage * userInput;
+
+// alert("Your Zakat value is " + result); 
+
+// ..task 2..
+
+// var familyMembers = prompt("Enter the total number of family members:");
+
+// var fitrahMethod = prompt("Choose a fitrah method:1. wheat  2. dates  3. raisins  4. barley");
+// var wheat = 250;
+// var dates = 2100;
+// var raisins = 2800;
+// var barley = 450;
+
+
+//     if(fitrahMethod == '1' ){
+//         alert("Your Fitrah value is "  + familyMembers * wheat);
+//     }  
+//     if(fitrahMethod == '2'){
+//         alert("Your Fitrah value is "  + familyMembers * dates);
+//     }
+//     if(fitrahMethod == '3'){
+//         alert("Your Fitrah value is "  + familyMembers * raisins);
+//     }
+//     if(fitrahMethod == '4'){
+//         alert("Your Fitrah value is "  + familyMembers * barley);
+//     }
+//  else {
+//   alert("Invalid input!");
+// }
+
+// ..task 3..
+
+// var secretNumber = 5;
+// var guess = prompt("Enter the secret number between 1 and 10");
+
+// if (guess=="5") {
+//     alert("Congratulation! You guessed the secret number.")
+
+// } else if (guess < "5") {
+//     alert("your guess is too low. Try again!")
+
+// } else if (guess > "5") {
+//        alert("Your guess is too high. Try again!")
+// }
+
+// ..task 4..
+
+// var userName = prompt("Enter Your Name");
+
+// var Name = userName.charAt(0).toUpperCase() + userName.slice(1);
+// document.write(Name);
+
+// ..task 5..
+
+// var contactNumbers=[];
+// var contactNames=[];
+
+
+// for(i = 0; i < 3; i++) {
+//    var userName=prompt("Enter your Name");
+//    var userNumber= prompt("Enter your Number");
+//    contactNames.push(userName);
+//    contactNumbers.push(userNumber);
+// }  
+
+// for (i = 0; i < contactNumbers.length; i++) {
+//     console.log(`Contact Number: ${contactNumbers[i]} | Contact Name: ${contactNames[i]}`);
+//   }
+
+// .. task 6..
+
+const products = ["apple", "banana", "orange", "grape", "watermelon"];
+
+let userInput = parseInt(prompt("Enter the position of the item you want to remove: "));
+while(isNaN(userInput) || userInput < 1 || userInput > products.length) {
+  userInput = parseInt(prompt("Invalid input! Enter a number between 1 and " + products.length));
+}
+
+const removedItem = products.splice(userInput - 1, 1);
+console.log("Removed item: " + removedItem);
+console.log("Remaining items: " + products);
+console.log("Total items remaining: " + products.length);
