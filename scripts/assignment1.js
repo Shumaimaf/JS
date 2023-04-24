@@ -1,4 +1,4 @@
-// ...task 1..
+// ...TASK 1..
 
 // var zakat_Percentage = 0.025;
 
@@ -11,7 +11,7 @@
 
 // alert("Your Zakat value is " + result); 
 
-// ..task 2..
+// ..TASK 2..
 
 // var familyMembers = prompt("Enter the total number of family members:");
 
@@ -38,7 +38,7 @@
 //   alert("Invalid input!");
 // }
 
-// ..task 3..
+// ..TASK 3..
 
 // var secretNumber = 5;
 // var guess = prompt("Enter the secret number between 1 and 10");
@@ -53,14 +53,14 @@
 //        alert("Your guess is too high. Try again!")
 // }
 
-// ..task 4..
+// ..TASK 4..
 
 // var userName = prompt("Enter Your Name");
 
 // var Name = userName.charAt(0).toUpperCase() + userName.slice(1);
 // document.write(Name);
 
-// ..task 5..
+// ..TASK 5..
 
 // var contactNumbers=[];
 // var contactNames=[];
@@ -77,16 +77,46 @@
 //     console.log(`Contact Number: ${contactNumbers[i]} | Contact Name: ${contactNames[i]}`);
 //   }
 
-// .. task 6..
+// .. TASK 6..
 
-const products = ["apple", "banana", "orange", "grape", "watermelon"];
+// var products = ["green", "blue", "orange", "pink", "yellow"];
 
-let userInput = parseInt(prompt("Enter the position of the item you want to remove: "));
-while(isNaN(userInput) || userInput < 1 || userInput > products.length) {
-  userInput = parseInt(prompt("Invalid input! Enter a number between 1 and " + products.length));
-}
+// var userInput = prompt("Enter the position of the item you want to remove: ");
 
-const removedItem = products.splice(userInput - 1, 1);
-console.log("Removed item: " + removedItem);
-console.log("Remaining items: " + products);
-console.log("Total items remaining: " + products.length);
+// var removedItem = products.splice(userInput - 1, 1);
+
+// console.log("Removed item: " + removedItem);
+// console.log("Remaining items: " + products);
+// console.log("Total items remaining: " + products.length);
+
+// ..TASK 7..
+
+// var nationality = prompt(' Please Enter Your Nationality');
+// var gender = prompt('Please Enter Your Gender');
+// var age = parseInt(prompt('Please Enter Your Age'));
+// if (nationality == "Pakistani" || nationality == "Indian") {
+//     if (gender == "Male" && age >= 18) {
+//         alert("You are eligible to vote.");
+//     } else if (gender == "Female" && age >= 18) {
+//         var married = prompt("Are you married? (yes or no)");
+//         if (married == "yes") {
+//             alert("You are eligible to vote");
+//         } else {
+//             alert("You are not eligible to vote");
+//         }
+//     } else {
+//         alert("You are not eligible to vote");
+//     }
+// }
+// else {
+//     alert('You are not eligible to vote due to Nationality issue')
+// }
+
+// ..TASK 8..
+
+// var WorldCupSquad = ["Sarfaraz Ahmed", "Fakhar Zaman", "Imam-ul-Haq", "Babar Azam", "Haris Sohail", "Shoaib Malik", "Asif Ali", "Shadab Khan", "Imad Wasim", "Hasan Ali", "Wahab Riaz", "Mohammad Amir", "Shaheen Afridi", "Mohammad Hasnain", "Abid Ali"];
+
+// console.log(WorldCupSquad);
+
+// var WorldCupSquad2 = WorldCupSquad.slice(0, 11)
+// console.log(WorldCupSquad2);
