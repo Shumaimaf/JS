@@ -91,8 +91,100 @@
 // var customMess = message + userName + banger;
 // alert(customMess);
 
-       
+    //    PROMPTS   like the alert code with two differences. you need a way to capture user response means declaring a variable.
+    // second string 
 
+// var spec = prompt("your species?", "human");
+// var ques = "your species?";
+// var defAns = "human";
+// var spec = prompt(ques, defAns);
+
+// var noOfCats = prompt("how many cats?");
+// var tooManyCats = noOfCats + 1;
+// console.log(tooManyCats);
+
+        //  if Statements 
+
+// var x = prompt("where do you live?");
+// if (x === "pakistan") {
+//     alert('correct');
+// }
+
+    //    comparisons operator === equality operator, case sensitive  !== it is not equals to 
+    // < > >= <= operators
+
+        // if else and else if statements
+
+// var x = prompt("where do you live?");
+// if (x === "pakistan") {
+// alert('correct');
+// }
+// else {
+//     score= 2;
+//     userIQ ="problematic";
+//     alert('wrong');
+// }
+
+    //   FUNCTION
+
+// function tellTime("current time : "+ theHr + ":" + theMin ) {
+//     var now = new Date();
+//     var theHr = now.getHours();
+//     var theMin = now.getMinutes();
+//     alert("current time:"+ theHr + ":" + theMin );
+// }
+// var whatever = "hello";
+// tellTime()
+
+
+// function greetUser(greetings) {
+// alert(greetings);    
+// }
+// var whatever = "hello";
+// greetUser(whatever);
+
+
+// var a = [2,3,4,5,6,7];
+// document.write(a[0]);
+
+// var things = new
+// Array('chair','table','door','window','wall');
+// for (i=0; i<things.length; i++) {
+//     document.write(things[i] + '<br/>');
+// }
+
+// var things = new
+// Array('chair','table','door','window','wall');
+// var total = things.join("=====");
+// document.write(total);
+// things.sort();
+// things.reverse();
+// for (i=0; i<things.length; i++) {
+        // document.write(things.indexOf('door'));
+        // things.push('testing')
+        // for (i=0; i<things.length; i++) { 
+    //    document.write(things[i] + " ");
+        // }
+// things.splice(0,1);
+// things.pop();
+// things.unshift('room');
+// things.shift()
+// for (i=0; i<things.length; i++) {
+// document.write(things[i] + ' ');
+// }
+
+// var city0 = "pakistan";
+// var city1 = "india";
+// var cities=  [ 'pakistan' , 'india' , 'iran']
+// alert('welcome' + " " + cities[2]);
+
+// var pets = [];
+// pets[0] = 'dogs';
+// pets[1] = 'cats';
+// pets[2] = 'bird';
+// pets[3] = 'hee';
+// pets.splice(2,1,'elephant', ' duck' ,'emu');
+// document.write(pets);
 
 // let userAge = +prompt("Enter your age");
 
